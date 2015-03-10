@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Erica Priester
  * Created on March 9, 2015
- * Purpose:
+ * Purpose:Find total restaurant bill including tax and tip
  */
 
 //System Libraries
