@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Erica Priester
  * Created on March 9, 2015
- * Purpose:
+ * Purpose:Homework1
  */
 
 //System Libraries
@@ -30,4 +30,3 @@ int main(int argc, char** argv) {
     
     return 0;
 }
-
