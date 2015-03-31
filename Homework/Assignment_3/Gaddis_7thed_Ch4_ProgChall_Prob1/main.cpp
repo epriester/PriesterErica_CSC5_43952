@@ -26,14 +26,13 @@ int main(int argc, char** argv) {
     cout<<"What is the second number?"<<endl;
     cin>>num2;
     //Calculate Conditional Operator
-    if (num1>num2);
-    else (num1<num2);   
-    cout<<"The first number "<<num1<<" is larger, and the second number "<<
-    cout<<num2<<" is smaller"<<endl;       
-    cout<<"The first number "<<num1<<" is smaller than the second number "<<
-    cout<<num2<<endl;
-    
+    if (num1>num2)
+    { cout<<num1<<" is larger than "<<num2<<endl;
+    }
+    else   
+    {
+    cout<<num1<<" is smaller than "<<num2<<endl;
+    }
  //Exit Stage Right!       
     return 0;
 }
-
