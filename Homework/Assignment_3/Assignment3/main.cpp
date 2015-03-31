@@ -3,9 +3,16 @@
  * Author: Erica Priester
  * Purpose:  To Illustrate the code for
  * developing a menu
- * Problem 1 -> Sum the numbers between 1 and 10
- * Problem 2 -> Multiply the numbers between 1 and 10
- * Problem 3 -> Divide the numbers between 1 and 10
+ * Problem 1 -> Find min and max between two numbers
+ * Problem 2 -> Convert numbers into Roman numerals between 1 and 10
+ * Problem 3 -> Find out if a date is magical!
+ * Problem 4 -> Show which area of a rectangle between two is bigger
+ * Problem 5 -> Show the number of points a customer has
+ * Problem 6 -> Determine the weight of an object and compare to newtons
+ * Problem 9 -> Find the total cost of the computer and softwares
+ * Problem 10 -> Find the total bank fee the customer owes
+ * Problem 12 -> Show which runner came in 1st,2nd,and 3rd
+ * Problem 14 -> Find the body mass index
  
  */
 
