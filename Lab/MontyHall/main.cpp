@@ -3,6 +3,7 @@
  * Author: Erica Priester
  * Created on April 1, 2015, 8:01 AM
  * Purpose: Play the Monty Hall Game
+ *          Analyze staying with your first door
  */
 
 #include <iostream>
@@ -42,10 +43,12 @@ int main(int argc, char** argv) {
         do{
             doorOpn=rand()%3+1;
         }while(door==doorOpn||prize==doorOpn);//Can't be the same
-        //What is the other door
+        //What is the other door, meaning the door not chosen
          do{
             othDoor=rand()%3+1;
-        }while(othDoor==doorOpn||othDoor==door);//Can't be the same   
+        }while(othDoor==doorOpn||othDoor==door);//Can't be the same
+        //When found now swap
+        door=othDoor;
         //cout<<"D="door<<"othD="othDoor<<"OpnD="<<doorOpn<<"prize="<<prize<<endl;
         //Swap the doors if given the opportunity 
         if(stay!='S'&&stay!='s'){
