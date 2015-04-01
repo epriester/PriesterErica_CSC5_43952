@@ -1,7 +1,6 @@
 /* 
  * File:   main.cpp
- * Author: rcc
- *
+ * Author: Erica Priester
  * Created on April 1, 2015, 8:01 AM
  * Purpose: Busted keypad, I am hungry, find the closest temp for food!
  */
