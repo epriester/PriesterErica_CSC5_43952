@@ -1,12 +1,11 @@
 /* 
  * File:   main.cpp
- * Author: Erica Priester
+ * Author: Dr. Mark E. Lehr
  * Purpose:  To Illustrate the code for
  * developing a menu
  * Problem 1 -> Sum the numbers between 1 and 10
  * Problem 2 -> Multiply the numbers between 1 and 10
  * Problem 3 -> Divide the numbers between 1 and 10
- * Add repetition
  * Modified on Mar 23rd, 2015
  */
 
@@ -24,10 +23,6 @@ using namespace std;
 
 //Execution Begins Here
 int main(int argc, char** argv) {
-    //Declare variable menu choice
-    char choice;
-    //Repeat the menu
-    do{
     //General Menu Format
     //Display the selection
     cout<<"Type 1 to solve problem 1"<<endl;
@@ -36,10 +31,10 @@ int main(int argc, char** argv) {
     cout<<"Type 4 to solve the Cable Bill"<<endl;
     cout<<"Type anything else to quit with no solutions."<<endl;
     //Read the choice
- 
+    char choice;
     cin>>choice;
     //Solve a problem that has been chosen.
-        switch(choice){
+    switch(choice){
             case '1':{
                 int sum=1+2+3+4+5+6+7+8+9+10;
                 cout<<endl;
@@ -115,7 +110,5 @@ int main(int argc, char** argv) {
                     cout<<"Exit?"<<endl;
             }
     };
-    }while(choice>='1'&&choice<='4');
-    //Exit Stage Right!
     return 0;
 }
